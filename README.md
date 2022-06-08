@@ -1,5 +1,5 @@
 # Microservices-SpringBoot
- l'architecture contient l'ensemble des microservices suivantes :
+## l'architecture contient l'ensemble des microservices suivantes :
 
 Microservice 1 : API Gateway
 
@@ -22,8 +22,11 @@ Microservice 9 : Configuration Service
 ## Contraintes:
 
 Maven Muti-modules
+
 Gateway: Spring Cloud Gateway
+
 Authentication + Authorization: (Openid connect + OAuth 2.0) Keycloak
+
 Internal Services Communication : RestTemplate | WebClient | OpenFeign
 Config Server: Spring Cloud Config Server (GitHub as a remote repository)
 Centralized Secrets Storage: Vault
